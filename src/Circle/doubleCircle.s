@@ -5,8 +5,6 @@ p1: .asciiz "pi = "
 p2: .asciiz "\nradius = "
 o1: .asciiz "\narea = "
 
-
-
 .text
 .globl main
 main:
@@ -45,5 +43,3 @@ syscall
 
 li $v0, 10
 syscall
-
-
